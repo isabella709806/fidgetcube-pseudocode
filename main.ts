@@ -4,6 +4,7 @@ input.onButtonPressed(Button.A, function () {
 input.onGesture(Gesture.ScreenDown, function () {
     for (let index = 0; index < 4; index++) {
         basic.showArrow(ArrowNames.East)
+        basic.showArrow(ArrowNames.West)
     }
 })
 input.onSound(DetectedSound.Loud, function () {
